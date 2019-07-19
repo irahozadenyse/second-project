@@ -4,8 +4,8 @@ function myApp(){
 
 var yy =document.getElementById("ye").Value;
  
- var calcCc= ((yy-1)/100);
- var nad=math.ceil(calcCc);
+ var calcCc= (yy-1)/100;
+ var nad=calcCc.toFixed(0);
 
 var cc=document.getElementById("ce").Value;
 
@@ -14,7 +14,7 @@ var mm = document.getElementById("mo").Value;
 var dd =document.getElementById("da").Value;
  var ff= document.getElementById("fi").Value;
  var ll= document.getElementById("la").Value;
- console.log(cc+mm+dd);
+ 
  var gender=prompt("Enter the gender:");
  
 var calcDay = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
@@ -56,5 +56,6 @@ document.getElementById("get").innerHTML=names[12];
 document.getElementById("get").innerHTML=names[13];
 }
 }
+
 
 
