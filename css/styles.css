@@ -1,0 +1,56 @@
+
+form{
+	
+	position: relative;
+	padding-right:600px;
+	padding-left:300px;
+	margin-bottom: 50px;
+}
+fieldset{
+	background-color:burlywood;
+}
+#to{
+	font-size:20px;
+	background-color: rgb(54, 253, 170);
+	border-radius:80%;
+	padding-left:100px;
+	padding-right:100px;
+	text-align: center;
+	font-style: italic;
+}
+.container{
+	margin-top:50px;
+	
+}
+#all{
+	background-color: rgb(186, 235, 247);
+	border-radius: 1500px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	font-size: 20px;
+	
+	
+}
+#nex{
+	font-style: italic;
+	background-color: rgb(54, 253, 170);
+	border-radius:80%;
+	text-align: center; 
+}
+#su{
+	background-color: brown;
+	border-radius: 100%;
+	color:whitesmoke;
+	font-size: 20px;
+
+
+}
+#le{
+	position:relative;
+	padding-left: 30px;
+	
+}
+.we{
+	padding-left:200px;
+	padding-right:200px;
+}

@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Calculates the day of the week and Akan Name.</title>
+        
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap.css"  rel="stylesheet" type="text/css">
-    </head>
-    <body>
+
+        <link href="bootstrap.min.css"  rel="stylesheet" type="text/css">
+
         <script src="js/scripts.js"></script>
-        <h1>Important information.</h1>
-        <p>This is the information that help us to find the day of the week
-             people born and then depending on their gender outputs their Akan Name. </p>
+        <title> Know your Akan Name.</title>
+    </head>
+    <body> <div id="to">
+        <h1>Know your Akan name</h1>
+      </div>
+      <div id="all">
+         <div class="container">
+        <p class="we">This is the information that help us to find the day of the week
+             people born and then depending on their gender outputs their Akan Name.
              Akan names are derived from Ghanian culture. Frequently in Ghana, 
              children are given their first name as a 'day name' which corresponds
               to the day in the week they were born. Here are Ghanian day names.</p>
-
-              <form action="/action_page.php">
-                <fieldset>
-                  <legend> Fill Personal information:</legend>
-                  first name:<br>
-                  <input type="text" name="first name" value=" "><br>
+            </div>
+                <form action="/action_page.php">
+                  <fieldset>
+                  <legend id="le">  <b>Fill Personal information:</b></legend>
+                  <div class="name">
+                  <ul>
+                    <li>
+                  First name:<br>
+                  <input id="fi" type="text" name="first name" ><br>
                   last name:<br>
-                  <input type="text" name="last name" value=" "><br>
-                  centry digits:<br>
-                  <input type="number" name="centry digits" value=" "><br>
+                  <input id ="la" type="text" name="last name" ><br>
+                  </li>
+                  </ul>
+                </div>
+                  <div class="periode">
+                  <ul>
+                    <li>
+                  century digits:<br>
+                  <input id="ce" type="century" name="century digit"><br>
                   year digits:<br>
-                  <input type="number" name=" Year digits" value=" "><br>
+                  <input id ="ye" type="year" name=" Year digits"><br>
+                  </li>
+                  </ul>
+                </div>
+                  <div class="birth">
+                  <ul>
+                    <li>
                   month:<br>
-                  <input type="number" name="month" value=" "><br>
+                  <input id="mo" type="number" name="month" ><br>
                   date of birth:<br>
-                  <input type="number" name="date" value=" "><br>
+                  <input id="da"type="number" name="date"  ><br>
+                  </li>
+                  </ul>
+                </div>
+                  <div class="gender">
+                  <ul>
+                    <li>
 
-                  <input type="radio" name="gender" value="male" checked> Male<br>
-                  <input type="radio" name="gender" value="female"> Female<br>
-
-
-                  <input type="button" name="submit" value=" submit"><br>
-
-                </fieldset>
+                  <input id="ma" type="radio" name="gender" value="male" > Male<br>
+                  <input id="fe" type="radio" name="gender" value="female"> Female<br>
+                  </li>
+                </ul>
+              </div>
+                  <input id="su"  type="button" name="submit"  value=" submit" onclick="myApp()"><br>
+                  <label for="name">The real Akan name is: </label>
+                  <p id= "get"></p>
               </form>
+            </div>
+            <div id="to">
+              <h1>you are wellcome</h1>
+            </div>
+            <footer>
+              <div id="nex">
+                <h1>Stay in touch</h1>
+                   tel:0737389852<br>
+                       0783260920<br>
+                email:irahodeny1@gmail.com<br>
+                <p>&copy;2019  IRAHOZA Denyse</p>
+              </div>
+            </footer>
     </body>
 </html>
