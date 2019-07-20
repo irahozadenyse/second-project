@@ -6,7 +6,6 @@
 
         <link href="bootstrap.min.css"  rel="stylesheet" type="text/css">
 
-        <script src="js/scripts.js"></script>
         <title> Know your Akan Name.</title>
     </head>
     <body> <div id="to">
@@ -20,53 +19,31 @@
              children are given their first name as a 'day name' which corresponds
               to the day in the week they were born. Here are Ghanian day names.</p>
             </div>
-                <form action="/action_page.php">
-                  <fieldset>
-                  <legend id="le">  <b>Fill Personal information:</b></legend>
-                  <div class="name">
-                  <ul>
-                    <li>
+            
+                <div id ="nice">
+                <legend id="le">  <b>Fill Personal information:</b></legend>
                   First name:<br>
                   <input id="fi" type="text" name="first name" ><br>
                   last name:<br>
                   <input id ="la" type="text" name="last name" ><br>
-                  </li>
-                  </ul>
-                </div>
-                  <div class="periode">
-                  <ul>
-                    <li>
-                  century digits:<br>
-                  <input id="ce" type="number" name="century digit"><br>
-                  year digits:<br>
-                  <input id ="ye" type="number" name=" Year digits"><br>
-                  </li>
-                  </ul>
-                </div>
-                  <div class="birth">
-                  <ul>
-                    <li>
+                  century :<br>
+                  <input id="ce" type="number" name="century "><br>
+                  year:<br>
+                  <input id="ye" type="number" name="year"><br>
                   month:<br>
-                  <input id="mo" type="month" name="month" ><br>
+                  <input id="mo" type="number" name="month"><br>
                   date of birth:<br>
-                  <input id="da"type="date" name="date"  ><br>
-                  </li>
-                  </ul>
-                </div>
-                  <div class="gender">
-                  <ul>
-                    <li>
-
+                  <input id="da"type="number" name="date"  ><br>
+                <div id="gend">
                   <input id="ma" type="radio" name="gender" value="male" > Male<br>
                   <input id="fe" type="radio" name="gender" value="female"> Female<br>
-                  </li>
-                </ul>
-              </div>
-                  <input id="su"  type="button" name="submit"  value=" submit" onclick="myApp()"><br>
+                </div>
+                  <input id="su"  type="button" onclick="myApp()"  value="submit"><br>
                   
-                  <label for="name">The real Akan name is: </label>
-                  <p id= "get"></p>
-              </form>
+                  <label for="name">Your real Akan name is: </label>
+                   <p id= "get"></p>
+                  </div>
+                
             </div>
             <div id="to">
               <h1>you are wellcome</h1>
@@ -80,5 +57,8 @@
                 <p>&copy;2019  IRAHOZA Denyse</p>
               </div>
             </footer>
+
+            <script src="js/scripts.js"></script>
+
     </body>
 </html>
