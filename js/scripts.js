@@ -52,7 +52,7 @@ document.getElementById("get").innerHTML=names[13];
 }
 return names;
 }
-
+var now= names;
 
 
 
