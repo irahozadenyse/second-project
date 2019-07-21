@@ -13,3 +13,5 @@ The Akan people of Ghana frequently name their children after the day of the wee
 * the month you have born in
 * the date of birth
 
+## Known Bugs
+this application work very well on those who have born in 20th and 21th century.
