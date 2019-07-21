@@ -12,7 +12,12 @@ The Akan people of Ghana frequently name their children after the day of the wee
 * the year you have born in
 * the month you have born in
 * the date of birth
-
+## BDD
+* created a variables 
+* function which help in functioning the formular
+* in java script i have to use document.getElementById to track the user inputs
+* use if statement to provide condition must be followed
+* return the names i need
 ## Known Bugs
 this application work very well on those who have born in 20th and 21th century.
 
