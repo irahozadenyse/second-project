@@ -6,3 +6,10 @@ This  application called Know your Akan name is easy to use it inorder to know t
 
 ##### origin of this Akan name 
 The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. 
+## Setup/Installation Requirements
+* first write your names ni real life
+* the century you have born in
+* the year you have born in
+* the month you have born in
+* the date of birth
+
