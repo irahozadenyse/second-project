@@ -19,11 +19,11 @@ The Akan people of Ghana frequently name their children after the day of the wee
 * use if statement to provide condition must be followed
 * return the names i need
 ## Known Bugs
-this application work very well on those who have born in 20th and 21th century.
+this application work very well on those who have born in "20th" and "21th"century.
 
 ## Technologies Used
 This application have used html, css,bootstrap styles and java scripts code.In html we have used codes for form and java scripts help us to get the user input and use it to provide the day some one has born on and give the name according to the  gender and that day it has found.
 ## Support and contact details
-I am allways avairable so that i can help you my fone number is 0783260920 and email is "irahodeny1@gmail.com"
+I am allways avairable so that i can help you my fone number is" 0783260920" and email is "irahodeny1@gmail.com"
 ### License
 <p>&copy, IRAHOZA Denyse 2019</p>
