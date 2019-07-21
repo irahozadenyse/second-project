@@ -1,6 +1,6 @@
 # Know your Akan name
 ### This application its main purpose is to provide the Akan name according to the day some one has born on and also to the gender,21 july 2019
-
+## done by IRAHOZA Denyse
 ## Description
 This  application called Know your Akan name is easy to use it inorder to know the day of the week you have born on and able to give you the name according to the gender.The requirement are not difficulty ,are the following first is your birth date,month, year and the century.
 
@@ -26,4 +26,4 @@ This application have used html, css,bootstrap styles and java scripts code.In h
 ## Support and contact details
 I am allways avairable so that i can help you my fone number is 0783260920 and email is "irahodeny1@gmail.com"
 ### License
-&copyright IRAHOZA Denyse 2019
+<p>&copy, IRAHOZA Denyse 2019</p>
